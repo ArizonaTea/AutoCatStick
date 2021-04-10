@@ -1,20 +1,22 @@
 import numpy as np
 import cv2
 
-
 class catfacedetect():
     def __init__(self):
-        pass
+        self.cap = cv2.VideoCapture(0)
+        self.flag = True
         
-    def detect(self,JobID):   
+    def detect(self, JobID):   
         #faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalcatface.xml')
         faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml')
-        cap = cv2.VideoCapture(0)
-        cap.set(3,640) # set Width
-        cap.set(4,480) # set Height
+        #cap = cv2.VideoCapture(0)
+        self.cap.set(3,640) # set Width
+        self.cap.set(4,480) # set Height
 
         while True:
-            ret, img = cap.read()
+            if not self.flag:
+                return
+            ret, img = self.cap.read()
             #img = cv2.flip(img, -1)
             gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
             
@@ -38,14 +40,18 @@ class catfacedetect():
                 cv2.imwrite('opencv'+str(JobID)+'.png', img)
                 break
             
-        cap.release()
-        cv2.destroyAllWindows()
+        #self.cap.release()
+        #cv2.destroyAllWindows()
         return
     
     def KillProcess(self):
-        cap = cv2.VideoCapture(0)
-        cap.release()
+        #cap = cv2.VideoCapture(0)
+        self.flag = False
+        self.cap.release()
         cv2.destroyAllWindows()
         return
-    
-    
+
+if __name__ == '__main__':
+    test = catfacedetect()
+    test.detect(0)
+    test.KillProcess()

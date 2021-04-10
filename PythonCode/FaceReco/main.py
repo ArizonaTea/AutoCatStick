@@ -11,9 +11,10 @@ GPIO.setup(23,GPIO.OUT)
 flag = False
 JobID = 0
 
-class auto_catstick_process():
+class auto_catstick_process(threading.Thread):
     def __init__(self):
-        pass
+        threading.Thread.__init__(self)
+        self.Detec = ''
     
     def run(self):
         global JobID
@@ -23,28 +24,34 @@ class auto_catstick_process():
                 #if not GPIO.input(25):
                 #    flag = not flag
                 #    GPIO.output(18, flag)
+                #print("check the flag", flag)
                 GPIO.output(18, flag)
                 if flag:
                     #Start Detecting
-                    test = CatFaceDetec.catfacedetect()
-                    test.detect(JobID)
+                    #test = CatFaceDetec.catfacedetect()
+                    self.Detec = CatFaceDetec.catfacedetect()
+                    self.Detec.detect(JobID)
 
                     #Motor Run
                     #Place Holder/Use LED for now
-                    GPIO.output(23, True)
-                    time.sleep(10)
-                    GPIO.output(23, False)
+                    if flag:
+                        GPIO.output(23, True)
+                        time.sleep(10)
+                        GPIO.output(23, False)
 
                     #Process End
-                    test.KillProcess()
+                    self.Detec.KillProcess()
                     JobID += 1
-                else:
-                    return
         except:
-            test.KillProcess()
+            self.Detec.KillProcess()
             GPIO.output(18, False)
             GPIO.output(23, False)
             print("Process Stopped")
+            
+    def kill(self):
+        if self.Detec != '':
+            self.Detec.KillProcess()
+        
     
 class control(threading.Thread):
     def __init__(self):
@@ -53,31 +60,24 @@ class control(threading.Thread):
     def run(self):
         global flag 
         while True:
-            time.sleep(1)
+            #time.sleep(1)
             if not GPIO.input(25):
                 flag = not flag
                 time.sleep(1)
-            print('Current Status is: ', flag)
-
-class autokill(threading.Thread):
-    def __init__(self):
-        threading.Thread.__init__(self)
-    
-    def run(self):
-        while True:
-            time.sleep(10)
-            if not flag:
-                kill = CatFaceDetec.catfacedetect()
-                kill.KillProcess()
-                print('Process Killed')
+            #print('Current Status is: ', flag)
 
 if __name__ == '__main__':
-    app = auto_catstick_process()
-    con = control()
-    ak = autokill()
-    con.start()
-    #ak.start()
-    while True:
-        app.run()
-    
+    try:
+        app = auto_catstick_process()
+        con = control()
+        con.start()
+        app.start()
+        while True:
+            #time.sleep(1)
+            if not flag:
+                app.kill()
+                #print('Auto Killed Process')
+    except:
+        GPIO.cleanup()
+        print("Program Stop")
     
