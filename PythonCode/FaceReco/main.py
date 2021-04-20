@@ -1,4 +1,6 @@
 import CatFaceDetec
+import Motor_Stick
+import Motor_Feed
 import RPi.GPIO as GPIO
 import time
 import threading
@@ -25,20 +27,24 @@ class auto_catstick_process(threading.Thread):
                 #    flag = not flag
                 #    GPIO.output(18, flag)
                 #print("check the flag", flag)
+                time.sleep(1)
                 GPIO.output(18, flag)
                 if flag:
                     #Start Detecting
                     #test = CatFaceDetec.catfacedetect()
                     self.Detec = CatFaceDetec.catfacedetect()
                     self.Detec.detect(JobID)
-
                     #Motor Run
                     #Place Holder/Use LED for now
                     if flag:
                         GPIO.output(23, True)
-                        time.sleep(10)
+                        time.sleep(1)
+                        MotorSRunTime = 1
+                        motor_s = Motor_Stick.motor_stick()
+                        motor_s.run(MotorSRunTime)
+                        motor_f = Motor_Feed.motor_feed()
+                        motor_f.run()
                         GPIO.output(23, False)
-
                     #Process End
                     self.Detec.KillProcess()
                     JobID += 1
@@ -64,7 +70,7 @@ class control(threading.Thread):
             if not GPIO.input(25):
                 flag = not flag
                 time.sleep(1)
-            #print('Current Status is: ', flag)
+            print('Current Status is: ', flag)
 
 if __name__ == '__main__':
     try:
@@ -79,5 +85,9 @@ if __name__ == '__main__':
                 #print('Auto Killed Process')
     except:
         GPIO.cleanup()
+        print("Program Error")
+    finally:
+        GPIO.cleanup()
         print("Program Stop")
+    
     
