@@ -1,0 +1,182 @@
+Added Component: Designator=C1(C0605)
+Added Component: Designator=C2(C0603)
+Added Component: Designator=C3(C0603)
+Added Component: Designator=C?(C0603)
+Added Component: Designator=CN1(GPIO_40Pin_M)
+Added Component: Designator=CN2(2PIN)
+Added Component: Designator=CN3(2PIN)
+Added Component: Designator=D1(SMC(DO-214AB))
+Added Component: Designator=D2(SMC(DO-214AB))
+Added Component: Designator=D3(SMC(DO-214AB))
+Added Component: Designator=D4(SMC(DO-214AB))
+Added Component: Designator=D5(SMC(DO-214AB))
+Added Component: Designator=D6(SMC(DO-214AB))
+Added Component: Designator=D7(SMC(DO-214AB))
+Added Component: Designator=D8(SMC(DO-214AB))
+Added Component: Designator=LED1(C0603)
+Added Component: Designator=LED2(C0603)
+Added Component: Designator=LED3(C0603)
+Added Component: Designator=LED4(C0603)
+Added Component: Designator=LED5(C0603)
+Added Component: Designator=LED6(C0603)
+Added Component: Designator=LED7(C0603)
+Added Component: Designator=LED8(C0603)
+Added Component: Designator=PC1(PC_2Pin)
+Added Component: Designator=PC2(PC_2Pin)
+Added Component: Designator=PC3(PC_2Pin)
+Added Component: Designator=R1(R0603)
+Add component (AddParameter): Name = "Rang"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=R2(R0603)
+Add component (AddParameter): Name = "Rang"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=R3(R0603)
+Add component (AddParameter): Name = "Rang"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=R4(R0603)
+Add component (AddParameter): Name = "Rang"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=R5(R0603)
+Add component (AddParameter): Name = "Rang"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=R6(R0603)
+Add component (AddParameter): Name = "Rang"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=R7(R0603)
+Add component (AddParameter): Name = "Rang"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Added Component: Designator=SW1(Switch)
+Added Component: Designator=U1(78M05)
+Added Component: Designator=U2(L298N)
+Added Pin To Net: NetName=VCC_12V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=VCC_12V Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=VSS_5V Pin=C?-2
+Added Pin To Net: NetName=3d3V_DC Pin=CN1-1
+Added Pin To Net: NetName=GND Pin=CN1-6
+Added Pin To Net: NetName=GPIO17 Pin=CN1-11
+Added Pin To Net: NetName=GPIO14 Pin=CN1-12
+Added Pin To Net: NetName=GPIO27 Pin=CN1-13
+Added Pin To Net: NetName=GPIO22 Pin=CN1-15
+Added Pin To Net: NetName=GPIO18 Pin=CN1-16
+Added Pin To Net: NetName=GPIO25 Pin=CN1-22
+Added Pin To Net: NetName=GPIO5 Pin=CN1-29
+Added Pin To Net: NetName=GPIO6 Pin=CN1-31
+Added Pin To Net: NetName=GPIO13 Pin=CN1-33
+Added Pin To Net: NetName=NetCN2_1 Pin=CN2-1
+Added Pin To Net: NetName=GND Pin=CN2-2
+Added Pin To Net: NetName=GND Pin=CN3-1
+Added Pin To Net: NetName=NetCN3_2 Pin=CN3-2
+Added Pin To Net: NetName=VCC_12V Pin=D1-1
+Added Pin To Net: NetName=Output1 Pin=D1-2
+Added Pin To Net: NetName=Output1 Pin=D2-1
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=VCC_12V Pin=D3-1
+Added Pin To Net: NetName=Output2 Pin=D3-2
+Added Pin To Net: NetName=Output2 Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=VCC_12V Pin=D5-1
+Added Pin To Net: NetName=Output3 Pin=D5-2
+Added Pin To Net: NetName=Output3 Pin=D6-1
+Added Pin To Net: NetName=GND Pin=D6-2
+Added Pin To Net: NetName=VCC_12V Pin=D7-1
+Added Pin To Net: NetName=Output4 Pin=D7-2
+Added Pin To Net: NetName=Output4 Pin=D8-1
+Added Pin To Net: NetName=GND Pin=D8-2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=Output1 Pin=LED1-2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED2-1
+Added Pin To Net: NetName=Output1 Pin=LED2-2
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=Output3 Pin=LED3-2
+Added Pin To Net: NetName=NetLED3_1 Pin=LED4-1
+Added Pin To Net: NetName=Output3 Pin=LED4-2
+Added Pin To Net: NetName=NetLED5_1 Pin=LED5-1
+Added Pin To Net: NetName=VCC_12V Pin=LED5-2
+Added Pin To Net: NetName=NetLED6_1 Pin=LED6-1
+Added Pin To Net: NetName=VSS_5V Pin=LED6-2
+Added Pin To Net: NetName=NetLED7_1 Pin=LED7-1
+Added Pin To Net: NetName=GPIO14 Pin=LED7-2
+Added Pin To Net: NetName=NetLED8_1 Pin=LED8-1
+Added Pin To Net: NetName=GPIO18 Pin=LED8-2
+Added Pin To Net: NetName=GND Pin=PC1-1
+Added Pin To Net: NetName=VCC_12V Pin=PC1-2
+Added Pin To Net: NetName=Output1 Pin=PC2-1
+Added Pin To Net: NetName=Output2 Pin=PC2-2
+Added Pin To Net: NetName=Output3 Pin=PC3-1
+Added Pin To Net: NetName=Output4 Pin=PC3-2
+Added Pin To Net: NetName=Output2 Pin=R1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R1-2
+Added Pin To Net: NetName=Output4 Pin=R2-1
+Added Pin To Net: NetName=NetLED3_1 Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=NetLED5_1 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetLED6_1 Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=NetLED7_1 Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=NetLED8_1 Pin=R6-2
+Added Pin To Net: NetName=GPIO25 Pin=R7-1
+Added Pin To Net: NetName=3d3V_DC Pin=R7-2
+Added Pin To Net: NetName=GPIO25 Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=VCC_12V Pin=U1-1
+Added Pin To Net: NetName=NetC2_1 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=NetCN2_1 Pin=U2-1
+Added Pin To Net: NetName=Output1 Pin=U2-2
+Added Pin To Net: NetName=Output2 Pin=U2-3
+Added Pin To Net: NetName=VCC_12V Pin=U2-4
+Added Pin To Net: NetName=GPIO27 Pin=U2-5
+Added Pin To Net: NetName=GPIO17 Pin=U2-6
+Added Pin To Net: NetName=GPIO22 Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=VSS_5V Pin=U2-9
+Added Pin To Net: NetName=GPIO13 Pin=U2-10
+Added Pin To Net: NetName=GPIO5 Pin=U2-11
+Added Pin To Net: NetName=GPIO6 Pin=U2-12
+Added Pin To Net: NetName=Output3 Pin=U2-13
+Added Pin To Net: NetName=Output4 Pin=U2-14
+Added Pin To Net: NetName=NetCN3_2 Pin=U2-15
+Added Member To Class: ClassName=ACS_sch Member=Component C1 220u
+Added Member To Class: ClassName=ACS_sch Member=Component C2 0.1u
+Added Member To Class: ClassName=ACS_sch Member=Component C3 0.1u
+Added Member To Class: ClassName=ACS_sch Member=Component C? 0.1u
+Added Member To Class: ClassName=ACS_sch Member=Component CN1 GPIO_40Pin_M
+Added Member To Class: ClassName=ACS_sch Member=Component CN2 Connector
+Added Member To Class: ClassName=ACS_sch Member=Component CN3 Connector
+Added Member To Class: ClassName=ACS_sch Member=Component D1 SS52
+Added Member To Class: ClassName=ACS_sch Member=Component D2 SS52
+Added Member To Class: ClassName=ACS_sch Member=Component D3 SS52
+Added Member To Class: ClassName=ACS_sch Member=Component D4 SS52
+Added Member To Class: ClassName=ACS_sch Member=Component D5 SS52
+Added Member To Class: ClassName=ACS_sch Member=Component D6 SS52
+Added Member To Class: ClassName=ACS_sch Member=Component D7 SS52
+Added Member To Class: ClassName=ACS_sch Member=Component D8 SS52
+Added Member To Class: ClassName=ACS_sch Member=Component LED1 Green
+Added Member To Class: ClassName=ACS_sch Member=Component LED2 Blue
+Added Member To Class: ClassName=ACS_sch Member=Component LED3 Green
+Added Member To Class: ClassName=ACS_sch Member=Component LED4 Blue
+Added Member To Class: ClassName=ACS_sch Member=Component LED5 Green
+Added Member To Class: ClassName=ACS_sch Member=Component LED6 Green
+Added Member To Class: ClassName=ACS_sch Member=Component LED7 Green
+Added Member To Class: ClassName=ACS_sch Member=Component LED8 Green
+Added Member To Class: ClassName=ACS_sch Member=Component PC1 PConnector
+Added Member To Class: ClassName=ACS_sch Member=Component PC2 PConnector
+Added Member To Class: ClassName=ACS_sch Member=Component PC3 PConnector
+Added Member To Class: ClassName=ACS_sch Member=Component R1 20k
+Added Member To Class: ClassName=ACS_sch Member=Component R2 20k
+Added Member To Class: ClassName=ACS_sch Member=Component R3 20k
+Added Member To Class: ClassName=ACS_sch Member=Component R4 4.7k
+Added Member To Class: ClassName=ACS_sch Member=Component R5 220
+Added Member To Class: ClassName=ACS_sch Member=Component R6 220
+Added Member To Class: ClassName=ACS_sch Member=Component R7 10k
+Added Member To Class: ClassName=ACS_sch Member=Component SW1 Switch
+Added Member To Class: ClassName=ACS_sch Member=Component U1 78M05
+Added Member To Class: ClassName=ACS_sch Member=Component U2 L298N
+Added Room: Name=ACS_sch
