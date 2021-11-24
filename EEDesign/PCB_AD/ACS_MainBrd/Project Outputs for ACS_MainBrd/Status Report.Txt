@@ -1,0 +1,26 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ACS_MainBrd.PrjPcb]
+   Generated File[ACS_PCB.GTO]
+   Generated File[ACS_PCB.GTP]
+   Generated File[ACS_PCB.GTS]
+   Generated File[ACS_PCB.GTL]
+   Generated File[ACS_PCB.GBL]
+   Generated File[ACS_PCB.GBS]
+   Generated File[ACS_PCB.GBP]
+   Generated File[ACS_PCB.GBO]
+   Generated File[ACS_PCB.GM1]
+   Generated File[ACS_PCB.GM13]
+   Generated File[ACS_PCB.GM15]
+   Generated File[ACS_PCB.GKO]
+   Generated File[ACS_PCB.GPT]
+   Generated File[ACS_PCB.GPB]
+   Generated File[ACS_PCB.RUL]
+   Generated File[ACS_PCB.EXTREP]
+   Generated File[ACS_PCB.REP]
+
+
+Files Generated   : 17
+Documents Printed : 0
+
+Finished Output Generation At 10:13:28 PM On 11/23/2021
