@@ -246,3 +246,30 @@ Used DCodes :
     D45
 *************************************************************
 
+*************************************************************
+Generating : Drill Drawing
+      File : ACS_PCB.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : ACS_PCB.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D49
+*************************************************************
+

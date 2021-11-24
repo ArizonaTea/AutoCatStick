@@ -15,12 +15,14 @@ From  : Variant [[No Variations]] of Project [ACS_MainBrd.PrjPcb]
    Generated File[ACS_PCB.GKO]
    Generated File[ACS_PCB.GPT]
    Generated File[ACS_PCB.GPB]
+   Generated File[ACS_PCB.GD1]
+   Generated File[ACS_PCB.GG1]
    Generated File[ACS_PCB.RUL]
    Generated File[ACS_PCB.EXTREP]
    Generated File[ACS_PCB.REP]
 
 
-Files Generated   : 17
+Files Generated   : 19
 Documents Printed : 0
 
-Finished Output Generation At 10:13:28 PM On 11/23/2021
+Finished Output Generation At 11:52:36 PM On 11/23/2021

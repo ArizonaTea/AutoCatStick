@@ -37,3 +37,5 @@ D45   RECTANGULAR        78.740      62.992       0.000 FLASH     180.000
 D46   ROUNDED            50.000      50.000       0.000 FLASH       0.000
 D47   ROUNDED            19.685      19.685       0.000  LINE       0.000
 D48   ROUNDED             0.100       0.100       0.000  LINE       0.000
+D49   ROUNDED             2.000       2.000       0.000  LINE       0.000
+D50   ROUNDED             2.667       2.667       0.000  LINE       0.000
