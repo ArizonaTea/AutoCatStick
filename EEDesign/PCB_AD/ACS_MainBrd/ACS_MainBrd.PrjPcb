@@ -107,6 +107,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LIBUCGYT
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ACS_MainBrd\Design Rule Check - ACS_PCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
