@@ -1,0 +1,123 @@
+Added Pin To Net: NetName=3d3V_DC Pin=CN1-1
+Added Pin To Net: NetName=3d3V_DC Pin=R7-2
+Added Net: Name=3d3V_DC
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=CN1-6
+Added Pin To Net: NetName=GND Pin=CN2-2
+Added Pin To Net: NetName=GND Pin=CN3-1
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D6-2
+Added Pin To Net: NetName=GND Pin=D8-2
+Added Pin To Net: NetName=GND Pin=PC1-1
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Net: Name=GND
+Added Pin To Net: NetName=GPIO5 Pin=CN1-29
+Added Pin To Net: NetName=GPIO5 Pin=U2-11
+Added Net: Name=GPIO5
+Added Pin To Net: NetName=GPIO6 Pin=CN1-31
+Added Pin To Net: NetName=GPIO6 Pin=U2-12
+Added Net: Name=GPIO6
+Added Pin To Net: NetName=GPIO13 Pin=CN1-33
+Added Pin To Net: NetName=GPIO13 Pin=U2-10
+Added Net: Name=GPIO13
+Added Pin To Net: NetName=GPIO14 Pin=CN1-12
+Added Pin To Net: NetName=GPIO14 Pin=LED7-2
+Added Net: Name=GPIO14
+Added Pin To Net: NetName=GPIO17 Pin=CN1-11
+Added Pin To Net: NetName=GPIO17 Pin=U2-6
+Added Net: Name=GPIO17
+Added Pin To Net: NetName=GPIO18 Pin=CN1-16
+Added Pin To Net: NetName=GPIO18 Pin=LED8-2
+Added Net: Name=GPIO18
+Added Pin To Net: NetName=GPIO22 Pin=CN1-15
+Added Pin To Net: NetName=GPIO22 Pin=U2-7
+Added Net: Name=GPIO22
+Added Pin To Net: NetName=GPIO25 Pin=CN1-22
+Added Pin To Net: NetName=GPIO25 Pin=R7-1
+Added Pin To Net: NetName=GPIO25 Pin=SW1-1
+Added Net: Name=GPIO25
+Added Pin To Net: NetName=GPIO27 Pin=CN1-13
+Added Pin To Net: NetName=GPIO27 Pin=U2-5
+Added Net: Name=GPIO27
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=U1-3
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetCN2_1 Pin=CN2-1
+Added Pin To Net: NetName=NetCN2_1 Pin=U2-1
+Added Net: Name=NetCN2_1
+Added Pin To Net: NetName=NetCN3_2 Pin=CN3-2
+Added Pin To Net: NetName=NetCN3_2 Pin=U2-15
+Added Net: Name=NetCN3_2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=LED2-2
+Added Pin To Net: NetName=NetLED1_1 Pin=R1-2
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_1 Pin=LED4-2
+Added Pin To Net: NetName=NetLED3_1 Pin=R2-2
+Added Net: Name=NetLED3_1
+Added Pin To Net: NetName=NetLED5_1 Pin=LED5-1
+Added Pin To Net: NetName=NetLED5_1 Pin=R3-2
+Added Net: Name=NetLED5_1
+Added Pin To Net: NetName=NetLED6_1 Pin=LED6-1
+Added Pin To Net: NetName=NetLED6_1 Pin=R4-2
+Added Net: Name=NetLED6_1
+Added Pin To Net: NetName=NetLED7_1 Pin=LED7-1
+Added Pin To Net: NetName=NetLED7_1 Pin=R5-2
+Added Net: Name=NetLED7_1
+Added Pin To Net: NetName=NetLED8_1 Pin=LED8-1
+Added Pin To Net: NetName=NetLED8_1 Pin=R6-2
+Added Net: Name=NetLED8_1
+Added Pin To Net: NetName=Output1 Pin=D1-2
+Added Pin To Net: NetName=Output1 Pin=D2-1
+Added Pin To Net: NetName=Output1 Pin=LED1-2
+Added Pin To Net: NetName=Output1 Pin=LED2-1
+Added Pin To Net: NetName=Output1 Pin=PC2-1
+Added Pin To Net: NetName=Output1 Pin=U2-2
+Added Net: Name=Output1
+Added Pin To Net: NetName=Output2 Pin=D3-2
+Added Pin To Net: NetName=Output2 Pin=D4-1
+Added Pin To Net: NetName=Output2 Pin=PC2-2
+Added Pin To Net: NetName=Output2 Pin=R1-1
+Added Pin To Net: NetName=Output2 Pin=U2-3
+Added Net: Name=Output2
+Added Pin To Net: NetName=Output3 Pin=D5-2
+Added Pin To Net: NetName=Output3 Pin=D6-1
+Added Pin To Net: NetName=Output3 Pin=LED3-2
+Added Pin To Net: NetName=Output3 Pin=LED4-1
+Added Pin To Net: NetName=Output3 Pin=PC3-1
+Added Pin To Net: NetName=Output3 Pin=U2-13
+Added Net: Name=Output3
+Added Pin To Net: NetName=Output4 Pin=D7-2
+Added Pin To Net: NetName=Output4 Pin=D8-1
+Added Pin To Net: NetName=Output4 Pin=PC3-2
+Added Pin To Net: NetName=Output4 Pin=R2-1
+Added Pin To Net: NetName=Output4 Pin=U2-14
+Added Net: Name=Output4
+Added Pin To Net: NetName=VCC_12V Pin=C1-1
+Added Pin To Net: NetName=VCC_12V Pin=C3-2
+Added Pin To Net: NetName=VCC_12V Pin=D1-1
+Added Pin To Net: NetName=VCC_12V Pin=D3-1
+Added Pin To Net: NetName=VCC_12V Pin=D5-1
+Added Pin To Net: NetName=VCC_12V Pin=D7-1
+Added Pin To Net: NetName=VCC_12V Pin=LED5-2
+Added Pin To Net: NetName=VCC_12V Pin=PC1-2
+Added Pin To Net: NetName=VCC_12V Pin=U1-1
+Added Pin To Net: NetName=VCC_12V Pin=U2-4
+Added Net: Name=VCC_12V
+Added Pin To Net: NetName=VSS_5V Pin=C4-2
+Added Pin To Net: NetName=VSS_5V Pin=LED6-2
+Added Pin To Net: NetName=VSS_5V Pin=U2-9
+Added Net: Name=VSS_5V
+Added Class: Name=ACS_sch
+Added Room: Name=ACS_sch

@@ -57,7 +57,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WSEQWTLP
 
 [Document2]
-DocumentPath=pcb\ACS_PCB.PcbDoc
+DocumentPath=pcb\ACS_PCB_P1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -126,23 +126,6 @@ DocumentUniqueId=
 
 [Document6]
 DocumentPath=CAMtastic2.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
-DocumentPath=CAMtastic3.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -248,6 +231,10 @@ DItemRevisionGUID=
 
 [GeneratedDocument23]
 DocumentPath=Project Outputs for ACS_MainBrd\Design Rule Check - ACS_PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for ACS_MainBrd\Design Rule Check - ACS_PCB_P1V1_0.html
 DItemRevisionGUID=
 
 [Configuration1]
